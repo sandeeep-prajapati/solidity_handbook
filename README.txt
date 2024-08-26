@@ -1,28 +1,32 @@
-REMIX DEFAULT WORKSPACE
+# Solidity Smart Contract Code Examples
 
-Remix default workspace is present when:
-i. Remix loads for the very first time 
-ii. A new workspace is created with 'Default' template
-iii. There are no files existing in the File Explorer
+## Overview
 
-This workspace contains 3 directories:
+This repository contains a collection of Solidity code examples for smart contracts. The examples are designed to demonstrate various aspects of smart contract development, including data storage, function calls, and more.
 
-1. 'contracts': Holds three contracts with increasing levels of complexity.
-2. 'scripts': Contains four typescript files to deploy a contract. It is explained below.
-3. 'tests': Contains one Solidity test file for 'Ballot' contract & one JS test file for 'Storage' contract.
+## Examples
 
-SCRIPTS
+- **/Array.sol**: Demonstrates how to work with arrays in Solidity, including declaring, initializing, and manipulating arrays.
+- **/Loop.sol**: Shows how to use looping and control structures, such as `for` loops and `if` statements, in Solidity.
+- **/DataStorage.sol**: Illustrates how to store and retrieve data in a smart contract using mappings and arrays.
 
-The 'scripts' folder has four typescript files which help to deploy the 'Storage' contract using 'web3.js' and 'ethers.js' libraries.
+## Getting Started
 
-For the deployment of any other contract, just update the contract's name from 'Storage' to the desired contract and provide constructor arguments accordingly 
-in the file `deploy_with_ethers.ts` or  `deploy_with_web3.ts`
+To use these examples, simply clone this repository and navigate to the desired example directory. Each example is a standalone Solidity file that can be compiled and deployed to a blockchain platform such as Ethereum.
 
-In the 'tests' folder there is a script containing Mocha-Chai unit tests for 'Storage' contract.
+## Prerequisites
 
-To run a script, right click on file name in the file explorer and click 'Run'. Remember, Solidity file must already be compiled.
-Output from script will appear in remix terminal.
+- Solidity compiler (version 0.8.10 or higher)
+- Ethereum development environment (e.g., Truffle, Hardhat)
 
-Please note, require/import is supported in a limited manner for Remix supported modules.
-For now, modules supported by Remix are ethers, web3, swarmgw, chai, multihashes, remix and hardhat only for hardhat.ethers object/plugin.
-For unsupported modules, an error like this will be thrown: '<module_name> module require is not supported by Remix IDE' will be shown.
+## License
+
+These code examples are licensed under the MIT License.
+
+## Contributing
+
+Contributions are welcome! If you'd like to add an example or improve an existing one, please submit a pull request.
+
+## Acknowledgments
+
+- Special thanks to the Solidity team for their work on the Solidity language and documentation.
