@@ -1,0 +1,90 @@
+{
+	"compiler": {
+		"version": "0.8.10+commit.fc410830"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "locked",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "x",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"19_function_modifer.sol/FunctionModifer.sol": "FunctionModifer"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"19_function_modifer.sol/FunctionModifer.sol": {
+			"keccak256": "0x544242a757045f4ad57f430d9e32695fdd0beac6795d53524ef6c4fbeaae9d4c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8f7b63400821b29882a7c4cc7fc83faf8c4ccae54c40f4250b962e0d62c3e6b3",
+				"dweb:/ipfs/QmPa8ej7UgLq4S7yNiFFWJq9r3gYgsLADP6yhJcqSmCo87"
+			]
+		}
+	},
+	"version": 1
+}
